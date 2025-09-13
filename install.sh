@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+NVM_METHOD
 { # this ensures the entire script is downloaded #
 
 nvm_has() {
@@ -20,7 +19,7 @@ nvm_grep() {
   GREP_OPTIONS='' command grep "$@"
 }
 
-nvm_default_install_dir() {
+install.shell
   [ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm"
 }
 
